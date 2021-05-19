@@ -75,8 +75,13 @@
         <a class="footer-link" href="https://www.instagram.com/om_pandey305/">Instagram</a>
         <a class="footer-link" href="https://pandeyom331.github.io/CV-html/">Website</a>
         <a class="footer-link" href="https://github.com/pandeyom331">Github</a>
-        <p class="lst">© 2020 Om Anand Pandey.</p>
+        <p>Copyright &#169; <span id="year"></span> </p>
       </div>
 
+       <script>
+              var year = new Date();
+              var newYear = year.getFullYear();
+              document.getElementById("year").innerHTML = newYear;
+       </script>
   </body>
 </html>
